@@ -1,0 +1,27 @@
+{
+ "schema": 1,
+ "version": "2026-11-05.1",
+ "records_through": "2026-11-05",
+ "published": "2026-11-05T22:06:07Z",
+ "min_app_build": 1,
+ "files": {
+  "detail-wyoming": {
+   "path": "detail-wyoming-aa9de3ea692a.json",
+   "sha256": "aa9de3ea692ae7f1ad4e03dea0407e23a2a85c2ff73a07b0b608be7c0a4dead8",
+   "bytes": 90985,
+   "rows": 1441
+  },
+  "places": {
+   "path": "places-6852d0212572.json",
+   "sha256": "6852d0212572cf03246aad58ea42b70fc3102a422277e4f375784b947655518c",
+   "bytes": 241611,
+   "rows": 1476
+  }
+ },
+ "counts": {
+  "places": 1476,
+  "files": 2,
+  "bytes": 332596,
+  "restaurants": 1422
+ }
+}

@@ -1,0 +1,197 @@
+{
+ "generated": "2026-11-05",
+ "domain": "https://nickstrom5.github.io/wyoming-eats",
+ "restaurants": 1422,
+ "places_incl_hidden": 1476,
+ "towns": 116,
+ "counties": 23,
+ "on_an_official_list": 0,
+ "hand_checked_on_a_guide": 45,
+ "serves_alcohol_state_license": 0,
+ "guide_saloons": 9,
+ "guide_steaks": 5,
+ "guide_cafes": 10,
+ "guide_sweets": 6,
+ "guide_farm": 7,
+ "guide_pizza": 4,
+ "guide_lodges": 7,
+ "oldest": 9,
+ "honors": 5,
+ "michelin": {},
+ "james_beard": 5,
+ "americas_classics": 1,
+ "permits_updated": "",
+ "city_pages": {
+  "Jackson": {
+   "restaurants": 89,
+   "listed": 9,
+   "saloons": 1,
+   "steaks": 1,
+   "cafes": 0,
+   "sweets": 1,
+   "farm": 2,
+   "pizza": 1,
+   "lodges": 1,
+   "hon": 2,
+   "oldest": 1
+  },
+  "Cody": {
+   "restaurants": 60,
+   "listed": 4,
+   "saloons": 1,
+   "steaks": 0,
+   "cafes": 1,
+   "sweets": 1,
+   "farm": 0,
+   "pizza": 0,
+   "lodges": 1,
+   "hon": 1,
+   "oldest": 1
+  },
+  "Sheridan": {
+   "restaurants": 65,
+   "listed": 4,
+   "saloons": 1,
+   "steaks": 0,
+   "cafes": 1,
+   "sweets": 1,
+   "farm": 1,
+   "pizza": 0,
+   "lodges": 0,
+   "hon": 1,
+   "oldest": 1
+  },
+  "Laramie": {
+   "restaurants": 93,
+   "listed": 4,
+   "saloons": 1,
+   "steaks": 1,
+   "cafes": 0,
+   "sweets": 1,
+   "farm": 1,
+   "pizza": 0,
+   "lodges": 0,
+   "hon": 0,
+   "oldest": 1
+  }
+ },
+ "cities_without_a_page": {
+  "Buffalo": 3,
+  "Cheyenne": 1,
+  "Casper": 2,
+  "Gillette": 2,
+  "Riverton": 2,
+  "Lander": 1,
+  "Wilson": 2,
+  "Thermopolis": 2,
+  "Rock Springs": 1,
+  "Saratoga": 1
+ },
+ "noindex_pages": [],
+ "web_app_data_bytes": {
+  "data/core.json": {
+   "raw": 109526,
+   "gzip": 28033
+  },
+  "data/detail-albany-county.json": {
+   "raw": 5818,
+   "gzip": 1931
+  },
+  "data/detail-big-horn-county.json": {
+   "raw": 1293,
+   "gzip": 481
+  },
+  "data/detail-campbell-county.json": {
+   "raw": 5546,
+   "gzip": 1794
+  },
+  "data/detail-carbon-county.json": {
+   "raw": 2521,
+   "gzip": 950
+  },
+  "data/detail-converse-county.json": {
+   "raw": 1283,
+   "gzip": 480
+  },
+  "data/detail-crook-county.json": {
+   "raw": 1016,
+   "gzip": 473
+  },
+  "data/detail-fremont-county.json": {
+   "raw": 4743,
+   "gzip": 1459
+  },
+  "data/detail-goshen-county.json": {
+   "raw": 1096,
+   "gzip": 435
+  },
+  "data/detail-hot-springs-county.json": {
+   "raw": 956,
+   "gzip": 440
+  },
+  "data/detail-johnson-county.json": {
+   "raw": 1601,
+   "gzip": 680
+  },
+  "data/detail-laramie-county.json": {
+   "raw": 13021,
+   "gzip": 3527
+  },
+  "data/detail-lincoln-county.json": {
+   "raw": 2539,
+   "gzip": 855
+  },
+  "data/detail-natrona-county.json": {
+   "raw": 10119,
+   "gzip": 2820
+  },
+  "data/detail-niobrara-county.json": {
+   "raw": 331,
+   "gzip": 193
+  },
+  "data/detail-park-county.json": {
+   "raw": 4971,
+   "gzip": 1752
+  },
+  "data/detail-platte-county.json": {
+   "raw": 1533,
+   "gzip": 641
+  },
+  "data/detail-sheridan-county.json": {
+   "raw": 4112,
+   "gzip": 1423
+  },
+  "data/detail-sublette-county.json": {
+   "raw": 1293,
+   "gzip": 508
+  },
+  "data/detail-sweetwater-county.json": {
+   "raw": 6382,
+   "gzip": 1869
+  },
+  "data/detail-teton-county.json": {
+   "raw": 7507,
+   "gzip": 2475
+  },
+  "data/detail-uinta-county.json": {
+   "raw": 2329,
+   "gzip": 846
+  },
+  "data/detail-washakie-county.json": {
+   "raw": 1066,
+   "gzip": 408
+  },
+  "data/detail-weston-county.json": {
+   "raw": 791,
+   "gzip": 327
+  },
+  "data/ids.json": {
+   "raw": 18514,
+   "gzip": 10868
+  },
+  "data/wy_shapes.json": {
+   "raw": 16505,
+   "gzip": 3512
+  }
+ }
+}

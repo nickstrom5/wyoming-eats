@@ -1,0 +1,76 @@
+name: WyomingEats
+options:
+  bundleIdPrefix: com.wyomingeats
+  deploymentTarget:
+    iOS: "18.0"
+  xcodeVersion: "16.0"
+  createIntermediateGroups: true
+  generateEmptyDirectories: true
+
+settings:
+  base:
+    SWIFT_VERSION: "5.10"
+    MARKETING_VERSION: "1.0.0"
+    CURRENT_PROJECT_VERSION: "1"
+    DEVELOPMENT_TEAM: "4C8TU6U7MQ"
+    CODE_SIGN_STYLE: Automatic
+    TARGETED_DEVICE_FAMILY: "1,2"  # iPhone and iPad
+    SWIFT_STRICT_CONCURRENCY: minimal
+
+targets:
+  WyomingEats:
+    type: application
+    platform: iOS
+    sources:
+      - path: WyomingEats
+    info:
+      path: WyomingEats/Info.plist
+      properties:
+        CFBundleDisplayName: Cowboy State Eats
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        UILaunchScreen:
+          UIColorName: LaunchBackground
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+        UISupportedInterfaceOrientations~ipad:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationPortraitUpsideDown
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        UIRequiresFullScreen: false
+        UIUserInterfaceStyle: Light      # the palette is light-only (Design/Theme.swift); dark mode made lists unreadable
+        NSLocationWhenInUseUsageDescription: "Your location sorts saloons, cafés and restaurants by distance and shows where you are on the map. It stays on your device."
+        ITSAppUsesNonExemptEncryption: false
+        LSApplicationQueriesSchemes: [maps]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.wyomingeats.ios
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+    scheme:
+      testTargets: [WyomingEatsTests, WyomingEatsUITests]
+
+  WyomingEatsTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: WyomingEatsTests
+    dependencies:
+      - target: WyomingEats
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.wyomingeats.ios.tests
+        GENERATE_INFOPLIST_FILE: true
+
+  WyomingEatsUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - path: WyomingEatsUITests
+    dependencies:
+      - target: WyomingEats
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.wyomingeats.ios.uitests
+        GENERATE_INFOPLIST_FILE: true
+        TEST_TARGET_NAME: WyomingEats
